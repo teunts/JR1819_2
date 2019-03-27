@@ -1,0 +1,6 @@
+% sum (X, Y, Z).
+%it is true if Z is X + Y
+
+% sum(n-1,....) -> sum(n,....)
+
+sum(n(X), Y, n(Z)):- sum(X, Y, Z)
