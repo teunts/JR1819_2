@@ -1,0 +1,4 @@
+
+times(_, 0, 0).
+
+times(X, n(Y), ):-  times(X, Y, Z),  sum(Z, X, R).
